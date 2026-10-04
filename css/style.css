@@ -1,0 +1,312 @@
+body {
+    background-color: #f3f4f6;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin: 18px;
+    font-size: 30px;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav a:hover{
+    color: #1677ed;
+    text-decoration: underline;
+    cursor: pointer;
+}
+button.me{
+    background-color:  rgb(19, 18, 18);
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    border: 0;
+    width: 100px;
+}
+button.me:hover{
+    background-color: #1677ed;
+    color: white;
+    cursor: pointer;
+}
+.box{
+    width: 100%;
+    height: 265px;
+    background-color: #1677ed;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    padding: 20px;
+    color: white;
+}
+h1{
+    padding-left: 20px;
+    margin-top: -28px;
+}
+p.me{
+    padding: 20px;
+    color: white;
+    margin-top: -35px;
+}
+button.my{
+    border: 1px solid black;
+    background-color: white;
+    color:  #1677ed;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 25px;
+}
+button.my:hover{
+    color:  white;
+    background-color: black;
+    cursor: pointer;
+}
+button.myself{
+    border: 1px solid black;
+    background-color: white;
+    color:  #1677ed;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 25px;
+}
+button.myself:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.image img{
+    width:  560px;
+    height: 265px;
+    border-radius: 8px;
+}
+.box1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background: white;
+}
+.image1 img {
+    width: 560px;
+    height: 300px;
+    border-radius: 8px;
+}
+.content1 {
+    width: 50%;
+    color: black;
+    padding: 25px;
+}
+.content1 p.paragraph{
+    color:  #1677ed;
+    margin-top: -20px;
+}
+.content1 p.graph{
+    color: black;
+    margin-top: -20px;
+}
+.points{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.points p{
+    color: black;
+    margin-top: -20px;
+    padding: 0;
+}
+.box2{
+    width: 100%;
+    height: 320px;
+    background-color: #f0f6ff;
+    margin-top: 10px;
+    padding-top: 25px;
+}
+.service-heading{
+    text-align: center;
+}
+.service-heading h6{
+    color: #1677ed;
+    margin: 5px;
+}
+.service-heading h2{
+    margin: 5px;
+    color: #111827;
+}
+.service-heading p{
+    color: #555;
+    padding: 5px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+   
+}
+.card{
+    width: 25%;
+    height: 130px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.card h3{
+    color:  #1677ed;
+}
+.card p{
+    color: #555;
+    padding: 5px;
+}
+.icon{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width: 100%;
+    height: 345px;
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+.feature-heading{
+    text-align: center;
+}
+.feature-heading h6{
+    color: #1677ed;
+    margin: 5px;
+}
+.feature-heading h2{
+    color: #111827;
+    margin: 5px;
+}
+.feature-heading p{
+    color: #555;
+    padding: 5px;
+    margin: 0;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.feature-icon{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature h3{
+    color: #1677ed;
+    margin: 0;
+}
+.feature p{
+    color: #555;
+    padding: 0;
+    margin: 8px 0 0 0;
+}
+.box4{
+    width: 90%;
+    height: 130px;
+    background-color: #1677ed;
+    margin: 30px auto 0;
+    border-radius: 8px;
+    padding-top: 5px;
+}
+.contact-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-content h6{
+    color: white;
+    margin: 13px;
+}
+.contact-content h2{
+    color: white;
+    margin: 13px;
+}
+.contact-content p{
+    margin-top: -10px;
+    margin-left: -2px;
+}
+.contact-content button{
+    background-color: white;
+    color: #1677ed;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-top: -10px;
+}
+.contact-content button:hover{
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+.footer{
+    width: 100%;
+    background-color: #071a2f;
+    margin-top: 20px;
+    color: white;
+    padding-top: 30px;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.footer h2{
+    color: white;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.footer h3{
+    color: white;
+}
+
+.footer p{
+    color: white;
+    padding: 5px;
+}
+.footer-links a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+.footer-links a:hover{
+    color: #1677ed;
+    cursor: pointer;
+}
+.footer-about p{
+    margin-top: 10px;
+}
